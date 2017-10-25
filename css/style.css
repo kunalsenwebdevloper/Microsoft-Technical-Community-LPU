@@ -1334,3 +1334,28 @@ h1, h2, h3, h4, h5, h6 {
 .space {
   padding-bottom: 15px;
 }
+
+.navbar-gallery span {
+color: black;
+-webkit-animation-duration: .3s;
+  animation-duration: .3s;
+}
+
+.navbar-gallery span:hover {
+  color: #00DE80;
+  border-bottom: 2px solid #00DE80;
+}
+
+.gallery-img {
+  max-width: 100%;
+  border-radius: 5px;
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.gallery-img:hover {
+  -moz-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}

@@ -341,12 +341,8 @@ support of Microsoft at back , and your good wishes we wish to energize today's 
                         </div>
 
                         <div class="form-group">
-                            <label>Your car</label>
-                            <select name="car" class="form-control" />
-                            <option value="Honda" class="form-control" />Honda</option>
-                            <option value="Subaru" class="form-control" />Subaru</option>
-                            <option value="Toyota" class="form-control" />Toyota</option>
-                            </select>
+                            <label>Email</label>
+                            <input name="e_mail" type="text" class="form-control" />
                         </div>
 
                         <div class="form-group">
@@ -413,30 +409,6 @@ support of Microsoft at back , and your good wishes we wish to energize today's 
 
     <!-- Main JS (Do not remove) -->
     <script src="js/main.js "></script>
-
-    <!-- Email Service -->
-    <script>
-        $(document).ready(function() {
-            $("#contactForm").submit(function(event) {
-                event.preventDefault();
-                $.ajax({
-                    url: "https://www.enformed.io/a55ohil",
-                    method: "post",
-                    dataType: "json",
-                    accepts: "application/json",
-                    data: $("#contactForm").serialize(),
-                    success: function() {
-                        console.log("Your form was successfully received!");
-                        // Show a success message here...
-                    },
-                    error: function() {
-                        console.log("Failure. Try again.");
-                        // Show an error message here...
-                    }
-                });
-            });
-        });
-    </script>
 
 </body>
 

@@ -1565,6 +1565,8 @@ h6 {
     transition: 0.3s;
     width: 40%;
     border-radius: 5px;
+    position: relative;
+    top: 50px;
     color: black;
     background-color: white;
 }
@@ -1604,4 +1606,16 @@ h6 {
 
 .sponsors img {
     padding: 25px 0px;
+}
+
+.get-sponsor {
+    position: relative;
+    top: 50px;
+}
+
+@media screen and (max-width: 992px) {
+    .get-sponsor {
+        position: relative;
+        top: 0;
+    }
 }

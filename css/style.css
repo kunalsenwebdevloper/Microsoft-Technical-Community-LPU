@@ -716,9 +716,8 @@ h6 {
     overflow: hidden;
     background-color: transparent;
     background-attachment: fixed;
-    position: relative;
+    
     width: 100%;
-    padding: 17em 0 12em 0;
 }
 
 #fh5co-counters {

@@ -478,6 +478,10 @@ function team() {
     window.location.href = "http://www.microsoftlpu.com/team.html";
 }
 
+function training() {
+    window.location.href = "http://www.microsoftlpu.com/training/training.html";
+}
+
 function ourEvent() {
     window.location.href = "http://www.microsoftlpu.com/#fh5co-testimonials";
 }

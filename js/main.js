@@ -479,7 +479,7 @@ function team() {
 }
 
 function training() {
-    window.location.href = "http://www.microsoftlpu.com/training/training.html";
+    window.location.href = "http://www.microsoftlpu.com/training/index.html";
 }
 
 function ourEvent() {
